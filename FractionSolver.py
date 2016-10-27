@@ -13,7 +13,7 @@ patt = "(.*.)/(.) *(.) *(.*.)/(.)"	   #works with or without spaces
 
 while(True):
 
-	s = input("Enter Your Problem: ")
+	s = input("Enter Your Problem, or press enter to quit: ")
 	if not s:
 		print("Thanks for playing!")
 		break				#end program
